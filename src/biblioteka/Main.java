@@ -52,7 +52,7 @@ public class Main extends Application {
         stage.close();
         stage.setWidth(600);
         stage.setHeight(400);
-        stage.setScene(new Scene(new Scene_Login()));
+        stage.setScene(new Scene(new Scene_Admin()));
         stage.show();
     }
     @Override

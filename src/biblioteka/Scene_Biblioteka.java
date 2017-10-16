@@ -38,8 +38,8 @@ public class Scene_Biblioteka extends AnchorPane{
 
         if(this.groupUser.equals("0")) {
 
-            Button reUser = new Button("Работа с польователями");
-            reUser.setPrefSize(100, 30);
+            Button reUser = new Button("Работа с юзерами");
+            reUser.setPrefSize(200, 30);
             setLeftAnchor(reUser, 12.5d);
             setTopAnchor(reUser, 10d);
 
