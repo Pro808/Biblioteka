@@ -26,7 +26,7 @@ public class EventButton implements EventHandler<ActionEvent> {
     @Override
     public void handle(ActionEvent event) {
 
-        if (this.objName.equals("Main")) {
+        if (this.objName.equals("Login")) {
 
             Scene_Login objTemp = (Scene_Login) this.obj;
 
@@ -47,6 +47,10 @@ public class EventButton implements EventHandler<ActionEvent> {
                 }
 
             }
+        }
+        if (this.objName.equals("reUser"))
+        {
+            Main.changeSceneToAdmin();
         }
 
     }

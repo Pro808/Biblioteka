@@ -48,6 +48,13 @@ public class Main extends Application {
         stage.setScene(new Scene(new Scene_Biblioteka(Login,Group)));
         stage.show();
     }
+    public static void changeSceneToAdmin() {
+        stage.close();
+        stage.setWidth(600);
+        stage.setHeight(400);
+        stage.setScene(new Scene(new Scene_Login()));
+        stage.show();
+    }
     @Override
     public void start(Stage primaryStage) throws Exception {
 

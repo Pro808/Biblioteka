@@ -1,30 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8f3b8f46-b347-4817-a05a-6cee14c49147" name="Default" comment="Ver 1.1">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Biblioteka/biblioteka/EventButton.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Biblioteka/biblioteka/Main.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Biblioteka/biblioteka/Scene_Biblioteka$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Biblioteka/biblioteka/Scene_Biblioteka.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Biblioteka/biblioteka/Scene_Login.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Biblioteka/biblioteka/UserPair.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Biblioteka/biblioteka/itemBook.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/description.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/project-template.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Biblioteka.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Biblioteka/UsersBooks/Pro808/Журавли.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Biblioteka/UsersBooks/Pro808/Пять озер.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Biblioteka/UsersBooks/Pro808/Русский стандарт.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Biblioteka/biblioteka/Scene_Biblioteka.fxml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Biblioteka/biblioteka/users.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/biblioteka/Scene_Biblioteka.fxml" />
+    <list default="true" id="8f3b8f46-b347-4817-a05a-6cee14c49147" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/biblioteka/Scene_Admin.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Biblioteka/biblioteka/Scene_Biblioteka$1.class" afterPath="$PROJECT_DIR$/out/production/Biblioteka/biblioteka/Scene_Biblioteka$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Biblioteka/biblioteka/Scene_Biblioteka.class" afterPath="$PROJECT_DIR$/out/production/Biblioteka/biblioteka/Scene_Biblioteka.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Biblioteka/biblioteka/Scene_Biblioteka.fxml" afterPath="$PROJECT_DIR$/out/production/Biblioteka/biblioteka/Scene_Biblioteka.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/biblioteka/EventButton.java" afterPath="$PROJECT_DIR$/src/biblioteka/EventButton.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/biblioteka/Main.java" afterPath="$PROJECT_DIR$/src/biblioteka/Main.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/biblioteka/Scene_Biblioteka.java" afterPath="$PROJECT_DIR$/src/biblioteka/Scene_Biblioteka.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/biblioteka/Scene_Login.java" afterPath="$PROJECT_DIR$/src/biblioteka/Scene_Login.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/biblioteka/users.txt" afterPath="$PROJECT_DIR$/src/biblioteka/users.txt" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -46,8 +33,8 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/biblioteka/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-174">
-              <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+            <state relative-caret-position="251">
+              <caret line="54" column="52" lean-forward="false" selection-start-line="54" selection-start-column="52" selection-end-line="54" selection-end-column="52" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -55,21 +42,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Русский стандарт.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/UsersBooks/Pro808/Русский стандарт.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Scene_Biblioteka.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Scene_Biblioteka.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/biblioteka/Scene_Biblioteka.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="178">
-              <caret line="114" column="9" lean-forward="true" selection-start-line="114" selection-start-column="9" selection-end-line="114" selection-end-column="9" />
+            <state relative-caret-position="132">
+              <caret line="46" column="44" lean-forward="true" selection-start-line="46" selection-start-column="44" selection-end-line="46" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -90,11 +67,9 @@
       <file leaf-file-name="Scene_Login.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/biblioteka/Scene_Login.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="27" column="29" lean-forward="false" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
+            <state relative-caret-position="51">
+              <caret line="21" column="4" lean-forward="false" selection-start-line="21" selection-start-column="4" selection-end-line="41" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -102,10 +77,20 @@
       <file leaf-file-name="EventButton.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/biblioteka/EventButton.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="663">
-              <caret line="43" column="28" lean-forward="false" selection-start-line="43" selection-start-column="28" selection-end-line="43" selection-end-column="48" />
+            <state relative-caret-position="132">
+              <caret line="48" column="13" lean-forward="true" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Scene_Admin.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/biblioteka/Scene_Admin.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
               <folding>
-                <element signature="imports" expanded="false" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -163,16 +148,17 @@
         <option value="$PROJECT_DIR$/src/biblioteka/UserParam.java" />
         <option value="$PROJECT_DIR$/src/biblioteka/Login.java" />
         <option value="$PROJECT_DIR$/src/biblioteka/UserPair.java" />
-        <option value="$PROJECT_DIR$/src/biblioteka/Scene_Login.java" />
         <option value="$PROJECT_DIR$/src/biblioteka/Scene_Biblioteka.fxml" />
-        <option value="$PROJECT_DIR$/src/biblioteka/EventButton.java" />
         <option value="$PROJECT_DIR$/src/biblioteka/itemBook.java" />
-        <option value="$PROJECT_DIR$/src/biblioteka/users.txt" />
         <option value="$PROJECT_DIR$/src/UsersBooks/Pro808/Журавли.txt" />
         <option value="$PROJECT_DIR$/src/UsersBooks/Pro808/Пять озер.txt" />
-        <option value="$PROJECT_DIR$/src/biblioteka/Main.java" />
         <option value="$PROJECT_DIR$/src/UsersBooks/Pro808/Русский стандарт.txt" />
+        <option value="$PROJECT_DIR$/src/biblioteka/Scene_Login.java" />
         <option value="$PROJECT_DIR$/src/biblioteka/Scene_Biblioteka.java" />
+        <option value="$PROJECT_DIR$/src/biblioteka/Scene_Admin.java" />
+        <option value="$PROJECT_DIR$/src/biblioteka/EventButton.java" />
+        <option value="$PROJECT_DIR$/src/biblioteka/Main.java" />
+        <option value="$PROJECT_DIR$/src/biblioteka/users.txt" />
       </list>
     </option>
   </component>
@@ -227,6 +213,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Biblioteka" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Biblioteka" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="biblioteka" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -666,7 +670,7 @@
       <workItem from="1508092886871" duration="1508000" />
       <workItem from="1508143126654" duration="11105000" />
       <workItem from="1508155824428" duration="289000" />
-      <workItem from="1508156183713" duration="1122000" />
+      <workItem from="1508156183713" duration="2499000" />
     </task>
     <task id="LOCAL-00001" summary="Ver 1.0">
       <created>1508156779678</created>
@@ -675,11 +679,18 @@
       <option name="project" value="LOCAL" />
       <updated>1508156779678</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Ver 1.1">
+      <created>1508157335126</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1508157335126</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42327000" />
+    <option name="totallyTimeSpent" value="43704000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -726,7 +737,8 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <MESSAGE value="Ver 1.0" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ver 1.0" />
+    <MESSAGE value="Ver 1.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ver 1.1" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -762,9 +774,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="29" column="29" lean-forward="false" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -772,9 +782,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="663">
           <caret line="44" column="28" lean-forward="false" selection-start-line="44" selection-start-column="28" selection-end-line="44" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -818,9 +826,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="29" column="29" lean-forward="false" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -828,9 +834,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="663">
           <caret line="44" column="28" lean-forward="false" selection-start-line="44" selection-start-column="28" selection-end-line="44" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -874,9 +878,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="29" column="29" lean-forward="false" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -884,9 +886,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="663">
           <caret line="44" column="28" lean-forward="false" selection-start-line="44" selection-start-column="28" selection-end-line="44" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -930,9 +930,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
           <caret line="29" column="29" lean-forward="false" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -940,9 +938,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="663">
           <caret line="44" column="28" lean-forward="false" selection-start-line="44" selection-start-column="28" selection-end-line="44" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -978,9 +974,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -998,9 +992,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="595">
           <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1093,33 +1085,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/UsersBooks/Pro808/Admin/efef.java" />
-    <entry file="file://$PROJECT_DIR$/src/biblioteka/users.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="14" lean-forward="false" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/biblioteka/EventButton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="43" column="28" lean-forward="false" selection-start-line="43" selection-start-column="28" selection-end-line="43" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/biblioteka/Scene_Login.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="27" column="29" lean-forward="false" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/UsersBooks/Pro808/Пять озер.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -1142,14 +1107,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/biblioteka/UserPair.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="3" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/biblioteka/itemBook.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -1158,20 +1115,62 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/biblioteka/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/biblioteka/UserPair.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-174">
-          <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+        <state relative-caret-position="68">
+          <caret line="4" column="3" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/biblioteka/Scene_Biblioteka.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="46" column="44" lean-forward="true" selection-start-line="46" selection-start-column="44" selection-end-line="46" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/biblioteka/Scene_Biblioteka.java">
+    <entry file="file://$PROJECT_DIR$/src/biblioteka/Scene_Login.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="114" column="9" lean-forward="true" selection-start-line="114" selection-start-column="9" selection-end-line="114" selection-end-column="9" />
+        <state relative-caret-position="51">
+          <caret line="21" column="4" lean-forward="false" selection-start-line="21" selection-start-column="4" selection-end-line="41" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/biblioteka/EventButton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="48" column="13" lean-forward="true" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/biblioteka/users.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="6" lean-forward="false" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/biblioteka/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="54" column="52" lean-forward="false" selection-start-line="54" selection-start-column="52" selection-end-line="54" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/biblioteka/Scene_Admin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
