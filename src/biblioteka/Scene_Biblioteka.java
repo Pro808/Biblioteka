@@ -49,14 +49,14 @@ public class Scene_Biblioteka extends AnchorPane{
         textBookLabel.setFont(Font.font("ARIAl", FontWeight.findByWeight(500), 14));
         textBookLabel.setStyle("-fx-background-color: white;");
         textBookLabel.setTextAlignment(TextAlignment.LEFT);
-
         setRightAnchor(scrollPane,25d);
         setTopAnchor(scrollPane,nameUserLabel.getHeight() + 28.5);
+
+
 
         viewBooks.setMinSize(Main.stage.getWidth()*0.33,Main.stage.getHeight() - 70 - nameUserLabel.getHeight());
         viewBooks.getSelectionModel().setSelectionMode(SelectionMode.SINGLE); setLeftAnchor(viewBooks,0d);
         setTopAnchor(viewBooks,25d);
-
 
 
         viewBooks.setOnMouseClicked(new EventHandler<MouseEvent>() {
