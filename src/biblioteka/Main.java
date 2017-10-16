@@ -55,6 +55,21 @@ public class Main extends Application {
         stage.setScene(new Scene(new Scene_Admin()));
         stage.show();
     }
+    public static void logoutBiblioteka()
+    {
+        stage.close();
+        stage.setWidth(600);
+        stage.setHeight(200);
+        stage.setScene(new Scene(new Scene_Login()));
+        stage.show();
+    }
+    public static void logoutAdmin() throws IOException {
+        stage.close();
+        stage.setWidth(800);
+        stage.setHeight(600);
+        stage.setScene(new Scene(new Scene_Biblioteka("Admin","0")));
+        stage.show();
+    }
     @Override
     public void start(Stage primaryStage) throws Exception {
 

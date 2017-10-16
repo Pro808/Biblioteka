@@ -2,6 +2,7 @@ package biblioteka;
 
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
+import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
 import javafx.scene.control.*;
 import javafx.scene.input.MouseEvent;
@@ -28,6 +29,7 @@ public class Scene_Biblioteka extends AnchorPane{
         this.groupUser = groupUser;
 
         Pane pane = new Pane(textBookLabel);
+
         ScrollPane scrollPane = new ScrollPane(pane);
 
         ListView<itemBook> viewBooks = new ListView<>();
@@ -59,21 +61,31 @@ public class Scene_Biblioteka extends AnchorPane{
             setTopAnchor(viewBooks,25d);
         }
 
+        Button logout = new Button("Выход");
+        logout.setOnAction(new EventHandler<ActionEvent>() {
+            @Override
+            public void handle(ActionEvent event) {
+                Main.logoutBiblioteka();
+            }
+        });
+        logout.setPrefSize(200, 30);
+        setRightAnchor(logout, 12.5d);
+        setTopAnchor(logout, 10d);
 
-        scrollPane.setPrefSize(Main.stage.getWidth()*0.6,Main.stage.getHeight() - 90 - nameUserLabel.getHeight());
+        scrollPane.setPrefSize(Main.stage.getWidth()*0.6,Main.stage.getHeight() - 150 - nameUserLabel.getHeight());
         pane.setPrefWidth(Main.stage.getWidth()*0.6);
-        pane.setMinHeight(Main.stage.getHeight() - 90 - nameUserLabel.getHeight());
+        pane.setMinHeight(Main.stage.getHeight() - 150 - nameUserLabel.getHeight());
         scrollPane.setStyle("-fx-background-color: white;-fx-padding: 0px 30px 0px 30px;");
         pane.setStyle("-fx-background-color: white;");
         textBookLabel.setFont(Font.font("ARIAl", FontWeight.findByWeight(500), 14));
         textBookLabel.setStyle("-fx-background-color: white;");
         textBookLabel.setTextAlignment(TextAlignment.LEFT);
         setRightAnchor(scrollPane,25d);
-        setTopAnchor(scrollPane,nameUserLabel.getHeight() + 28.5);
+        setTopAnchor(scrollPane,nameUserLabel.getHeight() + 28.5 + logout.getPrefHeight());
 
 
 
-        viewBooks.setMinSize(Main.stage.getWidth()*0.33,Main.stage.getHeight() - 70 - nameUserLabel.getHeight());
+        viewBooks.setMinSize(Main.stage.getWidth()*0.33,Main.stage.getHeight() - 150 - nameUserLabel.getHeight());
         viewBooks.getSelectionModel().setSelectionMode(SelectionMode.SINGLE); setLeftAnchor(viewBooks,0d);
 
 
@@ -110,10 +122,10 @@ public class Scene_Biblioteka extends AnchorPane{
             }
         });
 
+        getChildren().add(logout);
         getChildren().add(viewBooks);
         getChildren().add(nameUserLabel);
         getChildren().addAll(scrollPane);
-
 
         ObservableList<itemBook> listBooks = FXCollections.observableArrayList();
 

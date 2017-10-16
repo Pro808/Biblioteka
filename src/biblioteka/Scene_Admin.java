@@ -27,6 +27,20 @@ public class Scene_Admin  extends GridPane {
         setHgap(10);
         setVgap(10);
 
+        Button logout = new Button("Выход");
+        logout.setOnAction(new EventHandler<ActionEvent>() {
+            @Override
+            public void handle(ActionEvent event) {
+                try {
+                    Main.logoutAdmin();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+            }
+        });
+        logout.setPrefSize(150,30);
+        add(logout,10,0);
+
         Label labelName = new Label("Добавить юзера:");
         labelName.setFont(Font.font("ARIAl", FontWeight.BOLD, 18));
         Label labelPass = new Label("Добавить пароль:");
@@ -77,16 +91,16 @@ public class Scene_Admin  extends GridPane {
                 }
             }
         });
-        add(labelName, 2, 1);
-        add(labelPass,2,3);
-        add(nameUserCreateLogin,6,1);
-        add(nameUserCreatePass,6,3);
-        add(createNewUser,8,2);
+        add(labelName, 2, 3);
+        add(labelPass,2,5);
+        add(nameUserCreateLogin,6,3);
+        add(nameUserCreatePass,6,5);
+        add(createNewUser,8,4);
 
         Label deleteLabel = new Label("Удалить юзера:");
         deleteLabel.setFont(Font.font("ARIAl", FontWeight.BOLD, 18));
-        add(deleteLabel, 2, 8);
-        add(nameUserDelete,6,8);
+        add(deleteLabel, 2, 10);
+        add(nameUserDelete,6,10);
 
         Button deleteUser = new Button("Удалить юзера");
         deleteUser.setOnAction(new EventHandler<ActionEvent>() {
@@ -139,7 +153,7 @@ public class Scene_Admin  extends GridPane {
                 }
             }
         });
-        add(deleteUser, 8, 8);
+        add(deleteUser, 8, 10);
 
 
     }
