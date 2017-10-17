@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8f3b8f46-b347-4817-a05a-6cee14c49147" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Biblioteka/biblioteka/Scene_Biblioteka.class" afterPath="$PROJECT_DIR$/out/production/Biblioteka/biblioteka/Scene_Biblioteka.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Biblioteka/biblioteka/Main.class" afterPath="$PROJECT_DIR$/out/production/Biblioteka/biblioteka/Main.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Biblioteka/biblioteka/Scene_Biblioteka$1.class" afterPath="$PROJECT_DIR$/out/production/Biblioteka/biblioteka/Scene_Biblioteka$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/biblioteka/Main.java" afterPath="$PROJECT_DIR$/src/biblioteka/Main.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/biblioteka/Scene_Admin.java" afterPath="$PROJECT_DIR$/src/biblioteka/Scene_Admin.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/biblioteka/Scene_Biblioteka.java" afterPath="$PROJECT_DIR$/src/biblioteka/Scene_Biblioteka.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/biblioteka/Scene_Login.java" afterPath="$PROJECT_DIR$/src/biblioteka/Scene_Login.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -29,8 +29,8 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/biblioteka/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="64">
-              <caret line="57" column="29" lean-forward="false" selection-start-line="57" selection-start-column="29" selection-end-line="57" selection-end-column="29" />
+            <state relative-caret-position="-119">
+              <caret line="61" column="26" lean-forward="false" selection-start-line="61" selection-start-column="26" selection-end-line="61" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -41,42 +41,30 @@
       <file leaf-file-name="Scene_Admin.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/biblioteka/Scene_Admin.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="149">
-              <caret line="36" column="40" lean-forward="true" selection-start-line="36" selection-start-column="40" selection-end-line="36" selection-end-column="40" />
+            <state relative-caret-position="183">
+              <caret line="154" column="70" lean-forward="false" selection-start-line="154" selection-start-column="70" selection-end-line="154" selection-end-column="115" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="users.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/biblioteka/users.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="6" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Scene_Login.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Scene_Login.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/biblioteka/Scene_Login.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="13">
-              <caret line="21" column="26" lean-forward="true" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+            <state relative-caret-position="238">
+              <caret line="65" column="58" lean-forward="false" selection-start-line="65" selection-start-column="58" selection-end-line="65" selection-end-column="58" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Scene_Biblioteka.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Scene_Biblioteka.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/biblioteka/Scene_Biblioteka.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="67" column="40" lean-forward="false" selection-start-line="67" selection-start-column="40" selection-end-line="67" selection-end-column="40" />
+            <state relative-caret-position="238">
+              <caret line="72" column="34" lean-forward="false" selection-start-line="72" selection-start-column="34" selection-end-line="72" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2007#2008#0" expanded="true" />
-                <element signature="e#2062#2063#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -95,7 +83,7 @@
       <file leaf-file-name="EventButton.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/biblioteka/EventButton.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="748">
+            <state relative-caret-position="509">
               <caret line="48" column="13" lean-forward="false" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
               <folding />
             </state>
@@ -126,6 +114,7 @@
     <findStrings>
       <find>bi</find>
       <find>pane</find>
+      <find>paneForItems.setPrefSize</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -161,10 +150,10 @@
         <option value="$PROJECT_DIR$/src/UsersBooks/Pro808/Русский стандарт.txt" />
         <option value="$PROJECT_DIR$/src/biblioteka/EventButton.java" />
         <option value="$PROJECT_DIR$/src/biblioteka/users.txt" />
-        <option value="$PROJECT_DIR$/src/biblioteka/Scene_Login.java" />
-        <option value="$PROJECT_DIR$/src/biblioteka/Scene_Admin.java" />
-        <option value="$PROJECT_DIR$/src/biblioteka/Main.java" />
         <option value="$PROJECT_DIR$/src/biblioteka/Scene_Biblioteka.java" />
+        <option value="$PROJECT_DIR$/src/biblioteka/Main.java" />
+        <option value="$PROJECT_DIR$/src/biblioteka/Scene_Admin.java" />
+        <option value="$PROJECT_DIR$/src/biblioteka/Scene_Login.java" />
       </list>
     </option>
   </component>
@@ -196,7 +185,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -245,6 +233,7 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -682,7 +671,8 @@
       <workItem from="1508143126654" duration="11105000" />
       <workItem from="1508155824428" duration="289000" />
       <workItem from="1508156183713" duration="5463000" />
-      <workItem from="1508179509043" duration="1648000" />
+      <workItem from="1508179509043" duration="2503000" />
+      <workItem from="1508229528648" duration="3817000" />
     </task>
     <task id="LOCAL-00001" summary="Ver 1.0">
       <created>1508156779678</created>
@@ -712,11 +702,18 @@
       <option name="project" value="LOCAL" />
       <updated>1508161511102</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Ver 2.1">
+      <created>1508181208934</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1508181208934</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48316000" />
+    <option name="totallyTimeSpent" value="52988000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -732,12 +729,12 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23676248" sideWeight="0.4902439" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24054463" sideWeight="0.4902439" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -765,12 +762,13 @@
     <MESSAGE value="Ver 1.0" />
     <MESSAGE value="Ver 1.1" />
     <MESSAGE value="Ver 2.0" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ver 2.0" />
+    <MESSAGE value="Ver 2.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ver 2.1" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="2" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -827,8 +825,6 @@
           <caret line="104" column="55" lean-forward="false" selection-start-line="104" selection-start-column="55" selection-end-line="104" selection-end-column="55" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2007#2008#0" expanded="true" />
-            <element signature="e#2062#2063#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -881,8 +877,6 @@
           <caret line="104" column="55" lean-forward="false" selection-start-line="104" selection-start-column="55" selection-end-line="104" selection-end-column="55" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2007#2008#0" expanded="true" />
-            <element signature="e#2062#2063#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -935,8 +929,6 @@
           <caret line="39" column="0" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2007#2008#0" expanded="true" />
-            <element signature="e#2062#2063#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -989,8 +981,6 @@
           <caret line="74" column="60" lean-forward="true" selection-start-line="74" selection-start-column="60" selection-end-line="74" selection-end-column="60" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2007#2008#0" expanded="true" />
-            <element signature="e#2062#2063#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1019,8 +1009,6 @@
           <caret line="17" column="35" lean-forward="false" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2007#2008#0" expanded="true" />
-            <element signature="e#2062#2063#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1110,17 +1098,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/biblioteka/Scene_Biblioteka.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="146" lean-forward="true" selection-start-line="10" selection-start-column="146" selection-end-line="10" selection-end-column="146" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/UsersBooks/Pro808/Admin/efef.java" />
     <entry file="file://$PROJECT_DIR$/src/UsersBooks/Pro808/Пять озер.txt">
       <provider selected="true" editor-type-id="text-editor">
@@ -1151,14 +1128,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/biblioteka/EventButton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="48" column="13" lean-forward="false" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/biblioteka/itemBook.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -1175,10 +1144,39 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/biblioteka/EventButton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="509">
+          <caret line="48" column="13" lean-forward="false" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/biblioteka/Scene_Biblioteka.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="6" column="35" lean-forward="true" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/biblioteka/Scene_Biblioteka.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="72" column="34" lean-forward="false" selection-start-line="72" selection-start-column="34" selection-end-line="72" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/biblioteka/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="57" column="29" lean-forward="false" selection-start-line="57" selection-start-column="29" selection-end-line="57" selection-end-column="29" />
+        <state relative-caret-position="-119">
+          <caret line="61" column="26" lean-forward="false" selection-start-line="61" selection-start-column="26" selection-end-line="61" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1187,29 +1185,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/biblioteka/Scene_Admin.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="36" column="40" lean-forward="true" selection-start-line="36" selection-start-column="40" selection-end-line="36" selection-end-column="40" />
+        <state relative-caret-position="183">
+          <caret line="154" column="70" lean-forward="false" selection-start-line="154" selection-start-column="70" selection-end-line="154" selection-end-column="115" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/biblioteka/Scene_Login.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="13">
-          <caret line="21" column="26" lean-forward="true" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+        <state relative-caret-position="238">
+          <caret line="65" column="58" lean-forward="false" selection-start-line="65" selection-start-column="58" selection-end-line="65" selection-end-column="58" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/biblioteka/Scene_Biblioteka.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="67" column="40" lean-forward="false" selection-start-line="67" selection-start-column="40" selection-end-line="67" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2007#2008#0" expanded="true" />
-            <element signature="e#2062#2063#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>

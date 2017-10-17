@@ -59,7 +59,7 @@ public class Main extends Application {
     {
         stage.close();
         stage.setWidth(600);
-        stage.setHeight(200);
+        stage.setHeight(350);
         stage.setScene(new Scene(new Scene_Login()));
         stage.show();
     }
@@ -77,7 +77,7 @@ public class Main extends Application {
 
         initDbUser();
         primaryStage.setWidth(600);
-        primaryStage.setHeight(200);
+        primaryStage.setHeight(350);
 
         primaryStage.setTitle("LoginForm");
         Scene Logining = new Scene(new Scene_Login());

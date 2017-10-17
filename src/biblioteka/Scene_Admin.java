@@ -7,6 +7,8 @@ import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
 import javafx.scene.layout.GridPane;
+import javafx.scene.layout.Pane;
+import javafx.scene.layout.Region;
 import javafx.scene.text.Font;
 import javafx.scene.text.FontWeight;
 
@@ -15,7 +17,7 @@ import java.io.*;
 /**
  * Created by Pro808 on 16.10.2017.
  */
-public class Scene_Admin  extends GridPane {
+public class Scene_Admin  extends Pane {
 
     public TextField nameUserCreateLogin = new TextField();
     public TextField nameUserCreatePass = new TextField();
@@ -23,23 +25,13 @@ public class Scene_Admin  extends GridPane {
 
     public Scene_Admin()
     {
-        setAlignment(Pos.CENTER);
-        setHgap(10);
-        setVgap(10);
 
-        Button logout = new Button("Выход");
-        logout.setOnAction(new EventHandler<ActionEvent>() {
-            @Override
-            public void handle(ActionEvent event) {
-                try {
-                    Main.logoutAdmin();
-                } catch (IOException e) {
-                    e.printStackTrace();
-                }
-            }
-        });
-        logout.setPrefSize(150,30);
-        add(logout,10,0);
+        GridPane paneForItems = new GridPane();
+
+        paneForItems.setAlignment(Pos.CENTER);
+        paneForItems.setHgap(10);
+        paneForItems.setVgap(10);
+
 
         Label labelName = new Label("Добавить юзера:");
         labelName.setFont(Font.font("ARIAl", FontWeight.BOLD, 18));
@@ -91,16 +83,16 @@ public class Scene_Admin  extends GridPane {
                 }
             }
         });
-        add(labelName, 2, 3);
-        add(labelPass,2,5);
-        add(nameUserCreateLogin,6,3);
-        add(nameUserCreatePass,6,5);
-        add(createNewUser,8,4);
+        paneForItems.add(labelName, 1, 3);
+        paneForItems.add(labelPass,1,5);
+        paneForItems.add(nameUserCreateLogin,2,3);
+        paneForItems.add(nameUserCreatePass,2,5);
+        paneForItems.add(createNewUser,3,4);
 
         Label deleteLabel = new Label("Удалить юзера:");
         deleteLabel.setFont(Font.font("ARIAl", FontWeight.BOLD, 18));
-        add(deleteLabel, 2, 10);
-        add(nameUserDelete,6,10);
+        paneForItems.add(deleteLabel, 1, 10);
+        paneForItems.add(nameUserDelete,2,10);
 
         Button deleteUser = new Button("Удалить юзера");
         deleteUser.setOnAction(new EventHandler<ActionEvent>() {
@@ -153,9 +145,40 @@ public class Scene_Admin  extends GridPane {
                 }
             }
         });
-        add(deleteUser, 8, 10);
+        paneForItems.add(deleteUser, 3, 10);
 
 
+
+        Region backPanelLoginFormm = new Region();
+        Pane panelForBack = new Pane(backPanelLoginFormm);
+        backPanelLoginFormm.setPrefSize(Main.stage.getWidth()*0.8,Main.stage.getHeight()*0.6);
+        panelForBack.setStyle("-fx-background-color: rgba(0,0,0,0.05);-fx-border-color: #ccc;-fx-border-width: 3px;");
+        panelForBack.setLayoutX(Main.stage.getWidth()*0.10);
+        panelForBack.setLayoutY((Main.stage.getHeight()*0.2 - 20));
+
+        paneForItems.setLayoutX((Main.stage.getWidth()*0.12));
+        paneForItems.setLayoutY((Main.stage.getHeight()*0.20 - 20));
+
+        paneForItems.setPrefSize(Main.stage.getWidth()*0.75,Main.stage.getHeight()*0.5);
+        getChildren().add(panelForBack);
+        getChildren().add(paneForItems);
+
+
+        Button logout = new Button("Выход");
+        logout.setOnAction(new EventHandler<ActionEvent>() {
+            @Override
+            public void handle(ActionEvent event) {
+                try {
+                    Main.logoutAdmin();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+            }
+        });
+        logout.setPrefSize(150,30);
+        logout.setLayoutX(Main.stage.getWidth() - 180);
+        logout.setLayoutY(10);
+        getChildren().add(logout);
     }
 
 }
