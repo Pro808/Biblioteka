@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8f3b8f46-b347-4817-a05a-6cee14c49147" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Biblioteka/biblioteka/Main.class" afterPath="$PROJECT_DIR$/out/production/Biblioteka/biblioteka/Main.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Biblioteka/biblioteka/Scene_Biblioteka$1.class" afterPath="$PROJECT_DIR$/out/production/Biblioteka/biblioteka/Scene_Biblioteka$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Biblioteka/biblioteka/Scene_Login.class" afterPath="$PROJECT_DIR$/out/production/Biblioteka/biblioteka/Scene_Login.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/biblioteka/Main.java" afterPath="$PROJECT_DIR$/src/biblioteka/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/biblioteka/Scene_Admin.java" afterPath="$PROJECT_DIR$/src/biblioteka/Scene_Admin.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/biblioteka/Scene_Login.java" afterPath="$PROJECT_DIR$/src/biblioteka/Scene_Login.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -51,8 +48,8 @@
       <file leaf-file-name="Scene_Login.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/biblioteka/Scene_Login.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="65" column="58" lean-forward="false" selection-start-line="65" selection-start-column="58" selection-end-line="65" selection-end-column="58" />
+            <state relative-caret-position="132">
+              <caret line="54" column="84" lean-forward="true" selection-start-line="54" selection-start-column="84" selection-end-line="54" selection-end-column="84" />
               <folding />
             </state>
           </provider>
@@ -672,7 +669,7 @@
       <workItem from="1508155824428" duration="289000" />
       <workItem from="1508156183713" duration="5463000" />
       <workItem from="1508179509043" duration="2503000" />
-      <workItem from="1508229528648" duration="3817000" />
+      <workItem from="1508229528648" duration="4158000" />
     </task>
     <task id="LOCAL-00001" summary="Ver 1.0">
       <created>1508156779678</created>
@@ -709,11 +706,18 @@
       <option name="project" value="LOCAL" />
       <updated>1508181208934</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Ver 2.2">
+      <created>1508233379305</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1508233379305</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52988000" />
+    <option name="totallyTimeSpent" value="53329000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -763,7 +767,8 @@
     <MESSAGE value="Ver 1.1" />
     <MESSAGE value="Ver 2.0" />
     <MESSAGE value="Ver 2.1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ver 2.1" />
+    <MESSAGE value="Ver 2.2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ver 2.2" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -1193,8 +1198,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/biblioteka/Scene_Login.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="65" column="58" lean-forward="false" selection-start-line="65" selection-start-column="58" selection-end-line="65" selection-end-column="58" />
+        <state relative-caret-position="132">
+          <caret line="54" column="84" lean-forward="true" selection-start-line="54" selection-start-column="84" selection-end-line="54" selection-end-column="84" />
           <folding />
         </state>
       </provider>

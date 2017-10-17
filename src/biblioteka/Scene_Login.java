@@ -42,7 +42,6 @@ public class Scene_Login extends Pane{
 
         formPaneMain.add(passText, 4, 5);
 
-        getChildren().addAll(formPaneMain);
 
 
         Region backPanelLoginFormm = new Region();
@@ -55,6 +54,7 @@ public class Scene_Login extends Pane{
         formPaneMain.setLayoutY((Main.stage.getHeight()*0.2 + 10));
 
         getChildren().addAll(panelForBack);
+        getChildren().addAll(formPaneMain);
 
 
 
