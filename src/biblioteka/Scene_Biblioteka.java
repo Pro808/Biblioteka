@@ -84,12 +84,10 @@ public class Scene_Biblioteka extends AnchorPane{
         setTopAnchor(scrollPane,nameUserLabel.getHeight() + 28.5 + logout.getPrefHeight());
 
 
-
         viewBooks.setMinSize(Main.stage.getWidth()*0.33,Main.stage.getHeight() - 150 - nameUserLabel.getHeight());
         viewBooks.getSelectionModel().setSelectionMode(SelectionMode.SINGLE); setLeftAnchor(viewBooks,0d);
 
-
-
+        
         viewBooks.setOnMouseClicked(new EventHandler<MouseEvent>() {
             @Override
             public void handle(MouseEvent event) {

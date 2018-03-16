@@ -89,32 +89,3 @@ public class Main extends Application {
 
 
 }
-
-    /*  public Main ()
-      {
-          setTitle("Войти в библиотеку");
-          setSize(new Dimension(600,250));
-          setLocationRelativeTo(null);
-
-          JPanel panel = new JPanel(new GridBagLayout());
-
-          JLabel labelName = new JLabel("Имя пользователя: ");
-          labelName.setSize(150,30);
-          JTextField nameText = new JTextField("Admin");
-          nameText.setSize(1300,30);
-          JLabel PassLabel= new JLabel("Пароль пользователя: ");
-          JPasswordField PassText = new JPasswordField("11111");
-
-          panel.add(labelName);
-          panel.add(nameText);
-
-          panel.add(PassLabel);
-          panel.add(PassText);
-
-          add(panel);
-
-
-          setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
-          setVisible(true);
-      }
-  */
