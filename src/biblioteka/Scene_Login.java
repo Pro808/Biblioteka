@@ -43,7 +43,6 @@ public class Scene_Login extends Pane{
         formPaneMain.add(passText, 4, 5);
 
 
-
         Region backPanelLoginFormm = new Region();
         Pane panelForBack = new Pane(backPanelLoginFormm);
         backPanelLoginFormm.setPrefSize(Main.stage.getWidth()*0.8,Main.stage.getHeight()*0.6);
