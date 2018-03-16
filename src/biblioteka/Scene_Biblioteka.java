@@ -144,7 +144,6 @@ public class Scene_Biblioteka extends AnchorPane{
             }
         }
 
-
         viewBooks.setItems(listBooks);
 
     }
